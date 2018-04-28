@@ -1,0 +1,18 @@
+{
+  "name": "frontEndBook",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "gitbook serve",
+    "build": "gitbook build",
+    "pbuild": "gitbook install && gitbook build && gitbook serve",
+    "push": "gitbook build && gh-pages -d _book"
+  },
+  "dependencies": {
+    "gitbook-plugin-anchor-navigation-ex-toc": "0.0.11",
+    "gitbook-plugin-copy-code-button": "0.0.2",
+    "gitbook-plugin-expandable-chapters-small": "^0.1.7",
+    "gitbook-plugin-search-plus": "^1.0.3",
+    "gitbook-plugin-splitter": "0.0.8",
+    "gitbook-plugin-theme-comscore": "0.0.3"
+  }
+}
