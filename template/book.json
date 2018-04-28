@@ -12,7 +12,8 @@
         "expandable-chapters-small",
         "copy-code-button",
         "tbfed-pagefooter",
-        "anchor-navigation-ex"
+        "anchor-navigation-ex",
+        "-sharing"
     ],
     "pluginsConfig": {
         "theme-default": {
@@ -35,17 +36,7 @@
             "tocLevel3Icon": "fa fa-hand-o-right"
         }
     },
-    "pdf": {
-        "pageNumbers": true,
-        "fontSize": 12,
-        "paperSize": "a4",
-        "margin": {
-            "right": 10,
-            "left": 10,
-            "top": 10,
-            "bottom": 15
-        },
-        "headerTemplate": null,
-        "footerTemplate": null
+    "styles": {
+        "website": "styles/website.css"
     }
 }

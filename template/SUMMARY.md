@@ -10,5 +10,5 @@
     * [子目录1](api/康夫子开放平台.md)
 
 ## 其他
-* [CSS动画集合](other/anim_list.md)
+* [其他](other/anim_list.md)
 
